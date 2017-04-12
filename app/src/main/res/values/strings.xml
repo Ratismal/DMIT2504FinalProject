@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+
+    <string name="MainView_desc">An IRC client.\n
+        \nFor the class presentation, you can follow along at:
+        \nSERVER: irc.esper.net
+        \nCHANNEL: #dmit2504
+        \n\nhttps://esper.net/publicirc.php
+    </string>
+    <string name="MainView_connect">Connect</string>
+    <string name="MainView_settings">Settings</string>
+
+    <string name="ChannelView_label">Channel</string>
+    <string name="ChannelView_input">Your Message Here…</string>
+    <string name="ChannelView_submitDescription">Send</string>
+
+    <string name="PrefsView_label">Settings</string>
+    <string name="Prefs_username_default">DMIT2504User</string>
+    <string name="Prefs_username_key">IRC_USERNAME</string>
+    <string name="Prefs_username_summary">Your IRC display name.</string>
+    <string name="Prefs_username_title">Username</string>
+
+    <string name="Prefs_server_default">irc.esper.net</string>
+    <string name="Prefs_server_key">IRC_SERVER</string>
+    <string name="Prefs_server_summary">Which server to connect to.</string>
+    <string name="Prefs_server_title">Server</string>
+
+    <string name="Prefs_channel_default">#dmit2504</string>
+    <string name="Prefs_channel_key">IRC_CHANNEL</string>
+    <string name="Prefs_channel_summary">Which channel to join.</string>
+    <string name="Prefs_channel_title">Channel</string>
+
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+</resources>

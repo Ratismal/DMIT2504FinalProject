@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ChannelView_inputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ChannelView_input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:hint="@string/ChannelView_input"
+            android:imeOptions="actionSend"
+            android:nextFocusUp="@+id/ChannelView_input"
+            android:nextFocusLeft="@+id/ChannelView_input"
+            android:inputType="textCapSentences|textAutoCorrect" />
+
+        <ImageButton
+            android:id="@+id/ChannelView_submitButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/ChannelView_submitDescription"
+            android:src="@drawable/ic_send_black_36dp" />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/ChannelView_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ChannelView_inputLayout"
+        android:transcriptMode="alwaysScroll"
+        android:stackFromBottom="true"/>
+
+
+</RelativeLayout>
